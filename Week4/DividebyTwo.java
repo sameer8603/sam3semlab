@@ -10,8 +10,10 @@ public class DividebyTwo {
 
         while (n >= 10) {
             n = n / 2;
+            if (n >= 10){
             System.out.println(n);
+            }
         }
-        sc.close();
+         sc.close();
     }
 }
