@@ -5,11 +5,8 @@ public class Even_Odd {
       Scanner sc = new Scanner(System.in);
       System.out.print("Enter number: ");
       int n = sc.nextInt();
-      if(n%2 == 0){
-        System.out.println(n+" is an Even number");
-      } else {
-        System.out.println(n+" is an Odd number");
-      }
+    String result = (n % 2 == 0) ? "Even number" : "Odd number";
+    System.out.println(n+" is an "+result);
       sc.close();
     }
 }

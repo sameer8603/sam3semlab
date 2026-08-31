@@ -24,5 +24,6 @@ public class Array_definition {
 												if(numbers[i] == x)
 													System.out.println("X found at index: "+i);
 								}
+			           sc.close();
 				}
 }
