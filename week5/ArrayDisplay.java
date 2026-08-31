@@ -13,5 +13,6 @@ public	class ArrayDisplay {
         for (int i = 0; i < size; i++) {
             System.out.print(arr[i] + " ");
         }
+        sc.close();
     }
 }
