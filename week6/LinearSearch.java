@@ -1,7 +1,7 @@
 public class LinearSearch {
      public static void main(String[] args){
-        int arr[] = {10,20,30,40,50,60};
-        int key = 50;
+        int arr[] = {10,203,30,40,502,60};
+        int key = 5020;
         boolean found = false;
         for(int i=0; i<arr.length; i++){
             if(key == arr[i]){
