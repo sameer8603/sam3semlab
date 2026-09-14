@@ -33,5 +33,6 @@ public class Permutations_Combinations {
 					else if(choice == 2) System.out.println("Combination: "+combination(n,r));
 									else System.out.println("Enter valid choice!");
 					}while(choice != 0);
-				}
+					sc.close();
+				} 	
 }

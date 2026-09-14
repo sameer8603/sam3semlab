@@ -14,5 +14,6 @@ public class TablePrintWithoutloop {
 								System.out.println((n*8));
 								System.out.println((n*9));
 								System.out.println((n*10));
+								sc.close();
 				}
 }

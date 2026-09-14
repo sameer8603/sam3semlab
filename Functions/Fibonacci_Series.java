@@ -18,5 +18,6 @@ public class Fibonacci_Series {
 								int sum = fibbonaci(n);
 								System.out.println();
 								System.out.print("Sum is: "+sum);
+								sc.close();
 				}
 }

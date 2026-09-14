@@ -9,5 +9,6 @@ public class Even_Until_n {
 																System.out.print(i + " ");
 												}
 								}
+								sc.close();
 				}
 }

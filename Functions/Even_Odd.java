@@ -12,5 +12,6 @@ public class Even_Odd {
 								int n = sc.nextInt();
 								if(evenOdd(n)) System.out.println("Number is even");
 								else System.out.println("Number is odd");
+								sc.close();
 				}
 }

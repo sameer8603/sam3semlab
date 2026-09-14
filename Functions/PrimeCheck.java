@@ -13,5 +13,6 @@ public class PrimeCheck {
 								if(prime(n)) {System.out.println("It is Prime");}
 								else {
 								System.out.println("Not a prime");}
+								sc.close();
 				}
 }

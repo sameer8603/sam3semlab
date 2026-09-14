@@ -10,5 +10,6 @@ public static void main(String[] args) {
             sum += digit;
             n /= 10;
          } System.out.println("Sum of digits = "+sum);
+         sc.close();
  }
 }

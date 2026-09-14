@@ -21,5 +21,6 @@ public class CalculatorUsingSwitch {
 																} break;
 												default : System.out.println("Invalid operator! ");
 								}
+								sc.close();
 				}
 }

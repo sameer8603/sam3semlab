@@ -28,5 +28,6 @@ public class CalculatorUsingIfelseIf {
 								else{
 												System.out.println("Enter valid operator!");
 								}
+								sc.close();
 				}
 }

@@ -14,5 +14,6 @@ public class Comparison {
 																System.out.println("A is lesser");
 												}
 								}
+								sc.close();
 				}
 }

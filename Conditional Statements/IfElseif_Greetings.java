@@ -13,5 +13,6 @@ public class IfElseif_Greetings {
 								} else{
 												System.out.println("Invalid button!");
 								}
+								sc.close();
 				}
 }

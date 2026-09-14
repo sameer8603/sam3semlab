@@ -9,5 +9,6 @@ public class Sum_of_n_Natural_numbers {
 												sum = sum + i;
 								}
 								System.out.println("Sum = " + sum);
+								sc.close();
 				}
 }

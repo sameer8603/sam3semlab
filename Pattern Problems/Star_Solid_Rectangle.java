@@ -10,5 +10,6 @@ public class Star_Solid_Rectangle {
 												}
 												System.out.println();
 								}
+								sc.close();
 				}
 }

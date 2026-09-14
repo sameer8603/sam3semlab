@@ -11,5 +11,6 @@ public class TablePrint {
 								System.out.println("Enter n: ");
 								int n = sc.nextInt();
 								printTable(n);
+								sc.close();
 				}
 }

@@ -15,5 +15,6 @@ public class MarksMenu {
 																				System.out.println("This is good as well");
 																				else System.out.println("Invalid marks!");
 								}while(choice != 0);
+								sc.close();
 				}
 }

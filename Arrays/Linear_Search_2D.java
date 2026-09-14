@@ -25,5 +25,6 @@ public class Linear_Search_2D {
 																}
 												}
 								}
+								sc.close();
 				}
 }

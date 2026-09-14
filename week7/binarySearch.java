@@ -11,10 +11,11 @@ public class binarySearch {
        }
        System.out.println("Enter key to find: ");
        int key = sc.nextInt();
-       int lb = 0, ub = n-1, mid;
+       int lb = 0, ub = n-1;
        int result = Binary(arr, lb, ub, key);
         if(result != -1) System.out.println(key+" found at "+result+" index ");
         else System.out.println("Key not found");
+        sc.close();
  }
  public static int Binary(int arr[], int lb, int ub, int key){
     int mid;

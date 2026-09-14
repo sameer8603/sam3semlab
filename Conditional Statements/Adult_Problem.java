@@ -10,5 +10,6 @@ public class Adult_Problem {
 								}else {
 												System.out.println("Not Adult");
 								}
+								sc.close();
 				}
 }

@@ -30,5 +30,6 @@ public class MonthDay {
 											System.out.println("December");break;
 												default : System.out.println("Invalid input!");
 								}
+								sc.close();
 				}
 }

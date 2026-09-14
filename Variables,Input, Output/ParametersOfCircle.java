@@ -9,7 +9,7 @@ public class ParametersOfCircle {
 								double perimeter = 2*pi*r;
 								System.out.println("Area=" + area);
 								System.out.println("Perimeter=" + perimeter);
-								
+								sc.close();
 				}
 				
 }

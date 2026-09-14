@@ -16,5 +16,6 @@ public class Prime_Number_Check {
 								}
 								if(isPrime)System.out.println(n+" is Prime");
 								else System.out.println(n+" is a Non-Prime number");
+								sc.close();
 				}
 }

@@ -9,5 +9,6 @@ public static void main(String[] args) {
         for(int i = 0; i < n; i++){
             sum += 1.0/(i+1);
         } System.out.println("Sum of series = "+sum);
+        sc.close();
  }
 }

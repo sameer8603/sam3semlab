@@ -31,5 +31,6 @@ public class Main {
 
         System.out.println("GCD = " + gcd(x, y));
         System.out.println("LCM = " + lcm(x, y));
+        sc.close();
     }
 }
