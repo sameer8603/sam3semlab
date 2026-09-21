@@ -1,5 +1,5 @@
 
-class Constructor_Chaning{
+class Constructor_Chaning {
     String color;
     String taste;
     double price;
@@ -21,9 +21,9 @@ class Constructor_Chaning{
 
     // Three-argument constructor
     Constructor_Chaning(String c, String t, double p) {
-        color = c;
-        taste = t;
-        price = p;
+       color = c;
+       taste = t;
+       price = p;
     }
 
     void display() {

@@ -3,8 +3,8 @@ class Fruit2 {
     String taste;
     double price;
 
-    Fruit2(String color, String taste, double price) {
-        this.color = color;
+    Fruit2(String c, String taste, double price) {
+        color = c;
         this.taste = taste;
         this.price = price;
     }
@@ -18,7 +18,7 @@ class Fruit2 {
 
     public static void main(String[] args) {
 
-        Fruit2 f1 = new  Fruit2("Red", "Sweet", 100);
+        Fruit2 f1 = new  Fruit2("Red", "Sweet", 99);
         Fruit2 f2 = new  Fruit2("Yellow", "Sweet", 60);
         Fruit2 f3 = new  Fruit2("Green", "Sour", 50);
 

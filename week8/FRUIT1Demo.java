@@ -3,8 +3,8 @@ class FRUIT1 {
     String taste;
     double price;
 
-    void setDetails(String color, String taste, double price) {
-        this.color = color;
+    void setDetails(String c, String taste, double price) {
+        color = c;
         this.taste = taste;
         this.price = price;
     }
@@ -21,7 +21,7 @@ class FRUIT1 {
         FRUIT1 f2 = new FRUIT1();
         FRUIT1 f3 = new FRUIT1();
 
-        f1.setDetails("Red", "Sweet", 100);
+        f1.setDetails("Red", "Sweet", 99);
         f2.setDetails("Yellow", "Sweet", 60);
         f3.setDetails("Green", "Sour", 50);
 
