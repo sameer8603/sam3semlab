@@ -1,7 +1,13 @@
-class Fruit {
+class Fruit2 {
     String color;
     String taste;
     double price;
+
+    Fruit2(String color, String taste, double price) {
+        this.color = color;
+        this.taste = taste;
+        this.price = price;
+    }
 
     void display() {
         System.out.println("Color: " + color);
@@ -9,22 +15,12 @@ class Fruit {
         System.out.println("Price: " + price);
         System.out.println();
     }
+
     public static void main(String[] args) {
 
-         Fruit f1 = new  Fruit();
-        f1.color = "Red";
-        f1.taste = "Sweet";
-        f1.price = 100;
-
-         Fruit f2 = new  Fruit();
-        f2.color = "Yellow";
-        f2.taste = "Sweet";
-        f2.price = 60;
-
-         Fruit f3 = new  Fruit();
-        f3.color = "Green";
-        f3.taste = "Sour";
-        f3.price = 50;
+        Fruit2 f1 = new  Fruit2("Red", "Sweet", 100);
+        Fruit2 f2 = new  Fruit2("Yellow", "Sweet", 60);
+        Fruit2 f3 = new  Fruit2("Green", "Sour", 50);
 
         f1.display();
         f2.display();
